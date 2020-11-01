@@ -8,35 +8,42 @@ class UserMainPage extends Component {
         return (
             <div className='Page'>
                 <div className='topZone'>
-                    <div class="row">
-                    <div className='MainUser'>
-                        <Card/>
+                    <div className="container">
+                        <div className="row">
+                            <div className="col-4">
+                            </div>
+                            <div className="col-4">
+                                <Card username="Jia-Yi Jian"/>
+                            </div>
+                            <div className="col-4">
+                            </div>
+                        </div>
                     </div>
-                    </div>
-                    
                 </div>
-                
+
                 <div className='bottomZone'>
-                    <div class="row">
-                        <div class="col-sm">
-                            <Card/>
+                    <div className="container">
+                        <div className="row">
+                            <div className="col-4">
+                                <Card username="Jia-Yi Jian"/>
+                            </div>
+                            <div className="col-4">
+                                <Card username="Jia-Yi Jian"/>
+                            </div>
+                            <div className="col-4">
+                                <Card username="Jia-Yi Jian"/>
+                            </div>
                         </div>
-                        <div class="col-sm">
-                            <Card/>
-                        </div>
-                        <div class="col-sm">
-                            <Card/>
-                        </div>
-                    </div>
-                    <div class="row">
-                        <div class="col-sm">
-                            <Card/>
-                        </div>
-                        <div class="col-sm">
-                            <Card/>
-                        </div>
-                        <div class="col-sm">
-                            <Card/>
+                        <div className="row">
+                            <div className="col-4">
+                                <Card username="Jia-Yi Jian"/>
+                            </div>
+                            <div className="col-4">
+                                <Card username="Jia-Yi Jian"/>
+                            </div>
+                            <div className="col-4">
+                                <Card username="Jia-Yi Jian"/>
+                            </div>
                         </div>
                     </div>
                 </div>
