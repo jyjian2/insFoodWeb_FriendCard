@@ -1,40 +1,44 @@
 import React, {Component} from 'react';
 import Card from './Card';
-import './UserMainPage.css'
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 
 class UserMainPage extends Component {
     render() {
         return (
             <div className='Page'>
-                <div className='upper-container'>
+                <div className='topZone'>
+                    <div class="row">
                     <div className='MainUser'>
                         <Card/>
                     </div>
-                </div>
-                <div className='lower-container'>
-                    <div class="row">
-                        <div class="column">
-                            <Card/>
-                        </div>
-                        <div class="column">
-                            <Card/>
-                        </div>
-                        <div class="column">
-                            <Card/>
                     </div>
+                    
+                </div>
+                
+                <div className='bottomZone'>
                     <div class="row">
-                        <div class="column">
+                        <div class="col-sm">
                             <Card/>
                         </div>
-                        <div class="column">
+                        <div class="col-sm">
                             <Card/>
                         </div>
-                        <div class="column">
+                        <div class="col-sm">
                             <Card/>
                         </div>
                     </div>
-                </div>
+                    <div class="row">
+                        <div class="col-sm">
+                            <Card/>
+                        </div>
+                        <div class="col-sm">
+                            <Card/>
+                        </div>
+                        <div class="col-sm">
+                            <Card/>
+                        </div>
+                    </div>
                 </div>
             </div>
             );
