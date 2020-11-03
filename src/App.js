@@ -6,8 +6,18 @@ import UserMainPage from './components/UserMainPage';
 function App() {
   return (
     <div className="App">
-	  {/* <Card username="Jia-Yi Jian"/>*/}
-    <UserMainPage/>
+	  <div className="container">
+                        <div className="row">
+                            <div className="col-4">
+                            </div>
+                            <div className="col-4">
+                                <Card username="Jia-Yi Jian"/>
+                            </div>
+                            <div className="col-4">
+                            </div>
+                        </div>
+                    </div>
+    {/* <UserMainPage/>*/}
     </div>
   );
 }
